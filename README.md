@@ -34,7 +34,7 @@ PyTorch implementation for License Transformer (MTech project at IISc Bangalore)
     <td>84.0</td>
     <td>50</td>
     <td>29.4</td>
-    <td>[Download](https://drive.google.com/file/d/1Qdz72qIb5dtp5aH4vB72K2rmF94Q6esj/view?usp=sharing)</td>
+    <td><a href="https://drive.google.com/file/d/1Qdz72qIb5dtp5aH4vB72K2rmF94Q6esj/view?usp=sharing">Downlaod</a></td>
   </tr>
   <tr>
     <td>LITR-R50</td>
@@ -48,14 +48,17 @@ PyTorch implementation for License Transformer (MTech project at IISc Bangalore)
     <td>84.2</td>
     <td>41</td>
     <td>42.4</td>
-    <td>[Download](https://drive.google.com/file/d/1E5ZVF-eFkyGS3iyUHi2qlybGxFJV8LsZ/view?usp=sharing)</td>
+    <td><a href="https://drive.google.com/file/d/1E5ZVF-eFkyGS3iyUHi2qlybGxFJV8LsZ/view?usp=sharing">Downlaod</a></td>
   </tr>
 </table>
+
+Comment: FPS is the number of images processed by model per second.
+
 
 
 ## Predictions
 
-LITR-R50 Outputs:
+LITR-R50 outputs:
 
 <table>
   <tr>
@@ -75,3 +78,8 @@ LITR-R50 Outputs:
   </tr>
 </table>
 
+LITR-R50 output over video file:
+
+![LITR-R50 output over video file](./videos/processed_01.gif)
+
+Comment: [Visit](https://drive.google.com/file/d/1bm_mrDbdLNlUI8HJSZJU6Y9CFSptI9wb/view?usp=sharing) to view the full .mp4 output.
