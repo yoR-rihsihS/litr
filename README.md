@@ -4,6 +4,23 @@ PyTorch implementation for License Transformer (MTech project at IISc Bangalore)
 
 [Read Report](./Thesis.pdf) | [View Poster](./Poster.pdf) | [View Presentation: Detection Transformer](./Detection%20Transformers.pdf)
 
+## Training
+
+- Run the following command to train LITR-R18:
+```
+python train.py --config "./configs/litr_r18.json"
+```
+
+- Run the following command to train LITR-R50:
+```
+python train.py --config "./configs/litr_r50.json"
+```
+
+- Run the following command to finetune model for practical predictions:
+```
+python finetune.py --config "{model config to finetune}" --checkpoint "{path to tranined model weights}"
+```
+
 
 ## Performance
 
@@ -54,11 +71,20 @@ PyTorch implementation for License Transformer (MTech project at IISc Bangalore)
 
 Comment: FPS is the number of images processed by model per second.
 
+- Run the following command to evaluate LITR-R18 on test sets:
+```
+python evaluate.py --config "./configs/litr_r18.json" --model_path "./saved/litr_r18.pth"
+```
+
+- Run the following command to evaluate LITR-R50 on test sets:
+```
+python evaluate.py --config "./configs/litr_r50.json" --model_path "./saved/litr_r50.pth"
+```
 
 
 ## Predictions
 
-LITR-R50 outputs:
+#### LITR-R50 outputs:
 
 <table style="width: 100%;">
   <tr>
@@ -78,8 +104,18 @@ LITR-R50 outputs:
   </tr>
 </table>
 
-LITR-R50 output over video file:
+- Run the following command to get predictions over images:
+```
+python visualize.py
+```
+
+#### LITR-R50 output over video file:
 
 ![LITR-R50 output over video file](./videos/processed_01.gif)
 
 Comment: [Visit](https://drive.google.com/file/d/1bm_mrDbdLNlUI8HJSZJU6Y9CFSptI9wb/view?usp=sharing) to view the full .mp4 output.
+
+- Run the following command to get prediction over video file:
+```
+python demo.py
+```
