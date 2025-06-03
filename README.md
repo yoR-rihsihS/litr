@@ -60,21 +60,21 @@ Comment: FPS is the number of images processed by model per second.
 
 LITR-R50 outputs:
 
-<table>
+<table style="width: 100%;">
   <tr>
-    <td><img src="./outputs/0.png" width="160"/></td>
-    <td><img src="./outputs/1.png" width="160"/></td>
-    <td><img src="./outputs/2.png" width="160"/></td>
+    <td><img src="./outputs/0.png" style="width: 100%;"/></td>
+    <td><img src="./outputs/1.png" style="width: 100%;"/></td>
+    <td><img src="./outputs/2.png" style="width: 100%;"/></td>
   </tr>
   <tr>
-    <td><img src="./outputs/3.png" width="160"/></td>
-    <td><img src="./outputs/4.png" width="160"/></td>
-    <td><img src="./outputs/5.png" width="160"/></td>
+    <td><img src="./outputs/3.png" style="width: 100%;"/></td>
+    <td><img src="./outputs/4.png" style="width: 100%;"/></td>
+    <td><img src="./outputs/5.png" style="width: 100%;"/></td>
   </tr>
   <tr>
-    <td><img src="./outputs/6.png" width="160"/></td>
-    <td><img src="./outputs/7.png" width="160"/></td>
-    <td><img src="./outputs/8.png" width="160"/></td>
+    <td><img src="./outputs/6.png" style="width: 100%;"/></td>
+    <td><img src="./outputs/7.png" style="width: 100%;"/></td>
+    <td><img src="./outputs/8.png" style="width: 100%;"/></td>
   </tr>
 </table>
 
