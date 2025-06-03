@@ -4,6 +4,42 @@ PyTorch implementation for License Transformer (MTech project at IISc Bangalore)
 
 [Read Report](./Thesis.pdf) | [View Poster](./Poster.pdf) | [View Presentation: Detection Transformer](./Detection%20Transformers.pdf)
 
+## Dataset
+
+Download the CCPD dataset from [here](https://github.com/detectRecog/CCPD).
+
+Make sure the project folder looks like this:
+LITR/
+├── CCPD2019/
+│   ├── ccpd_base/
+│   ├── ccpd_challenge/
+│   └── ... (other directories and files)
+├── codebase/
+│   ├── backbone.py
+│   ├── engine.py
+│   └── ... (other python scripts defining the model)
+├── configs/
+│   ├── litr_r18.json
+│   └── litr_r50.json
+├── outputs/
+│   └── ... (output images from visualizing predicitons)
+├── samples/
+│   └── ... (input images for visualizing predictions)
+├── saved/
+│   ├── litr_r18.pth
+│   ├── litr_r50.pth
+│   ├── litr_r50_finetuned.pth
+│   └── ... (save directory during training and finetuning)
+├── videos/
+│   └── ... (input/output videos for visualizing predictions)
+├── demo.py
+├── evaluate.py
+├── finetune.py
+├── train.py
+├── visualize.py
+└── ... (other files from project)
+
+
 ## Training
 
 - Run the following command to train LITR-R18:
@@ -20,7 +56,7 @@ python train.py --config "./configs/litr_r50.json"
 ```
 python finetune.py --config "{model config to finetune}" --checkpoint "{path to tranined model weights}"
 ```
-
+Download finetuned LITR-R50 for predictions from [here](https://drive.google.com/file/d/14uQgXM3gO2Adr7XhfZ8EwXz7xwwt8tjm/view?usp=sharing).
 
 ## Performance
 
