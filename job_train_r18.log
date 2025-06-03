@@ -1,0 +1,857 @@
+================================
+STARTING NEW JOB
+Using device: cuda
+Number of parameters = 29415474
+Number of trainable parameters = 29415474
+Total Samples in Train Set: 175986
+Total Samples in Validation Set: 35196
+Epoch 0 - Train Metrics:
+  Loss: 44.3093
+  Precision: 0.2489
+  Recall: 0.0688
+  Mean IoU: 0.2422
+  Total GT Licenses: 175986
+  Total Pred Licenses: 48624
+  License Correct: 12101
+Epoch 0 - Validation Metrics:
+  Loss: 1.6040
+  Precision: 0.4449
+  Recall: 0.3934
+  Mean IoU: 0.7696
+  Total GT Licenses: 35196
+  Total Pred Licenses: 31121
+  License Correct: 13846
+
+Epoch 1 - Train Metrics:
+  Loss: 20.4849
+  Precision: 0.6998
+  Recall: 0.6688
+  Mean IoU: 0.8446
+  Total GT Licenses: 175986
+  Total Pred Licenses: 168188
+  License Correct: 117704
+Epoch 1 - Validation Metrics:
+  Loss: 1.2336
+  Precision: 0.8024
+  Recall: 0.7919
+  Mean IoU: 0.8518
+  Total GT Licenses: 35196
+  Total Pred Licenses: 34732
+  License Correct: 27870
+
+Epoch 2 - Train Metrics:
+  Loss: 16.3042
+  Precision: 0.8322
+  Recall: 0.8167
+  Mean IoU: 0.8729
+  Total GT Licenses: 175986
+  Total Pred Licenses: 172704
+  License Correct: 143728
+Epoch 2 - Validation Metrics:
+  Loss: 1.0915
+  Precision: 0.8558
+  Recall: 0.8513
+  Mean IoU: 0.8657
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35012
+  License Correct: 29964
+
+Epoch 3 - Train Metrics:
+  Loss: 14.6868
+  Precision: 0.8689
+  Recall: 0.8568
+  Mean IoU: 0.8803
+  Total GT Licenses: 175986
+  Total Pred Licenses: 173548
+  License Correct: 150793
+Epoch 3 - Validation Metrics:
+  Loss: 1.0106
+  Precision: 0.8888
+  Recall: 0.8862
+  Mean IoU: 0.8739
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35092
+  License Correct: 31189
+
+Epoch 4 - Train Metrics:
+  Loss: 13.3012
+  Precision: 0.8992
+  Recall: 0.8910
+  Mean IoU: 0.8890
+  Total GT Licenses: 175986
+  Total Pred Licenses: 174377
+  License Correct: 156795
+Epoch 4 - Validation Metrics:
+  Loss: 1.0390
+  Precision: 0.9033
+  Recall: 0.8998
+  Mean IoU: 0.8667
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35061
+  License Correct: 31671
+
+Epoch 5 - Train Metrics:
+  Loss: 12.7478
+  Precision: 0.9105
+  Recall: 0.9033
+  Mean IoU: 0.8918
+  Total GT Licenses: 175986
+  Total Pred Licenses: 174599
+  License Correct: 158974
+Epoch 5 - Validation Metrics:
+  Loss: 1.0406
+  Precision: 0.8996
+  Recall: 0.8974
+  Mean IoU: 0.8682
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35113
+  License Correct: 31586
+
+Epoch 6 - Train Metrics:
+  Loss: 12.3431
+  Precision: 0.9191
+  Recall: 0.9125
+  Mean IoU: 0.8935
+  Total GT Licenses: 175986
+  Total Pred Licenses: 174735
+  License Correct: 160593
+Epoch 6 - Validation Metrics:
+  Loss: 1.0075
+  Precision: 0.9166
+  Recall: 0.9131
+  Mean IoU: 0.8693
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35065
+  License Correct: 32139
+
+Epoch 7 - Train Metrics:
+  Loss: 12.0168
+  Precision: 0.9269
+  Recall: 0.9212
+  Mean IoU: 0.8952
+  Total GT Licenses: 175986
+  Total Pred Licenses: 174898
+  License Correct: 162113
+Epoch 7 - Validation Metrics:
+  Loss: 0.9347
+  Precision: 0.9168
+  Recall: 0.9137
+  Mean IoU: 0.8802
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35078
+  License Correct: 32158
+
+Epoch 8 - Train Metrics:
+  Loss: 11.7504
+  Precision: 0.9338
+  Recall: 0.9282
+  Mean IoU: 0.8962
+  Total GT Licenses: 175986
+  Total Pred Licenses: 174924
+  License Correct: 163342
+Epoch 8 - Validation Metrics:
+  Loss: 0.9863
+  Precision: 0.9259
+  Recall: 0.9237
+  Mean IoU: 0.8717
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35112
+  License Correct: 32509
+
+Epoch 9 - Train Metrics:
+  Loss: 11.4902
+  Precision: 0.9364
+  Recall: 0.9312
+  Mean IoU: 0.8976
+  Total GT Licenses: 175986
+  Total Pred Licenses: 174997
+  License Correct: 163874
+Epoch 9 - Validation Metrics:
+  Loss: 1.0214
+  Precision: 0.9305
+  Recall: 0.9281
+  Mean IoU: 0.8660
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35106
+  License Correct: 32666
+
+Epoch 10 - Train Metrics:
+  Loss: 11.3033
+  Precision: 0.9406
+  Recall: 0.9357
+  Mean IoU: 0.8984
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175073
+  License Correct: 164669
+Epoch 10 - Validation Metrics:
+  Loss: 0.9582
+  Precision: 0.9315
+  Recall: 0.9281
+  Mean IoU: 0.8749
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35069
+  License Correct: 32667
+
+Epoch 11 - Train Metrics:
+  Loss: 11.0524
+  Precision: 0.9438
+  Recall: 0.9391
+  Mean IoU: 0.8994
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175104
+  License Correct: 165266
+Epoch 11 - Validation Metrics:
+  Loss: 0.9329
+  Precision: 0.9295
+  Recall: 0.9277
+  Mean IoU: 0.8792
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35127
+  License Correct: 32651
+
+Epoch 12 - Train Metrics:
+  Loss: 10.9080
+  Precision: 0.9466
+  Recall: 0.9417
+  Mean IoU: 0.8997
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175067
+  License Correct: 165723
+Epoch 12 - Validation Metrics:
+  Loss: 0.9909
+  Precision: 0.9392
+  Recall: 0.9365
+  Mean IoU: 0.8684
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35095
+  License Correct: 32961
+
+Epoch 13 - Train Metrics:
+  Loss: 10.7784
+  Precision: 0.9477
+  Recall: 0.9428
+  Mean IoU: 0.9003
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175068
+  License Correct: 165911
+Epoch 13 - Validation Metrics:
+  Loss: 0.9766
+  Precision: 0.9348
+  Recall: 0.9337
+  Mean IoU: 0.8718
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35154
+  License Correct: 32862
+
+Epoch 14 - Train Metrics:
+  Loss: 10.6190
+  Precision: 0.9510
+  Recall: 0.9465
+  Mean IoU: 0.9014
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175138
+  License Correct: 166562
+Epoch 14 - Validation Metrics:
+  Loss: 1.0316
+  Precision: 0.9329
+  Recall: 0.9312
+  Mean IoU: 0.8627
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35130
+  License Correct: 32774
+
+Epoch 15 - Train Metrics:
+  Loss: 9.8569
+  Precision: 0.9615
+  Recall: 0.9580
+  Mean IoU: 0.9071
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175333
+  License Correct: 168591
+Epoch 15 - Validation Metrics:
+  Loss: 0.9361
+  Precision: 0.9524
+  Recall: 0.9506
+  Mean IoU: 0.8748
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35130
+  License Correct: 33458
+
+Epoch 16 - Train Metrics:
+  Loss: 9.6851
+  Precision: 0.9640
+  Recall: 0.9607
+  Mean IoU: 0.9086
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175387
+  License Correct: 169072
+Epoch 16 - Validation Metrics:
+  Loss: 0.9193
+  Precision: 0.9532
+  Recall: 0.9510
+  Mean IoU: 0.8768
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35117
+  License Correct: 33473
+
+Epoch 17 - Train Metrics:
+  Loss: 9.5858
+  Precision: 0.9657
+  Recall: 0.9626
+  Mean IoU: 0.9095
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175425
+  License Correct: 169407
+Epoch 17 - Validation Metrics:
+  Loss: 0.9082
+  Precision: 0.9534
+  Recall: 0.9521
+  Mean IoU: 0.8793
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35146
+  License Correct: 33509
+
+Epoch 18 - Train Metrics:
+  Loss: 9.5188
+  Precision: 0.9669
+  Recall: 0.9639
+  Mean IoU: 0.9101
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175436
+  License Correct: 169628
+Epoch 18 - Validation Metrics:
+  Loss: 0.9494
+  Precision: 0.9544
+  Recall: 0.9525
+  Mean IoU: 0.8724
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35125
+  License Correct: 33525
+
+Epoch 19 - Train Metrics:
+  Loss: 9.4629
+  Precision: 0.9677
+  Recall: 0.9648
+  Mean IoU: 0.9108
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175451
+  License Correct: 169783
+Epoch 19 - Validation Metrics:
+  Loss: 0.9402
+  Precision: 0.9587
+  Recall: 0.9562
+  Mean IoU: 0.8731
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35104
+  License Correct: 33655
+
+Epoch 20 - Train Metrics:
+  Loss: 9.3992
+  Precision: 0.9682
+  Recall: 0.9654
+  Mean IoU: 0.9114
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175461
+  License Correct: 169889
+Epoch 20 - Validation Metrics:
+  Loss: 0.9387
+  Precision: 0.9554
+  Recall: 0.9541
+  Mean IoU: 0.8742
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35146
+  License Correct: 33579
+
+Epoch 21 - Train Metrics:
+  Loss: 9.3497
+  Precision: 0.9687
+  Recall: 0.9658
+  Mean IoU: 0.9118
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175460
+  License Correct: 169964
+Epoch 21 - Validation Metrics:
+  Loss: 0.9562
+  Precision: 0.9577
+  Recall: 0.9565
+  Mean IoU: 0.8719
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35152
+  License Correct: 33664
+
+Epoch 22 - Train Metrics:
+  Loss: 9.3067
+  Precision: 0.9693
+  Recall: 0.9662
+  Mean IoU: 0.9121
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175433
+  License Correct: 170046
+Epoch 22 - Validation Metrics:
+  Loss: 0.9433
+  Precision: 0.9561
+  Recall: 0.9542
+  Mean IoU: 0.8733
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35127
+  License Correct: 33584
+
+Epoch 23 - Train Metrics:
+  Loss: 9.2518
+  Precision: 0.9695
+  Recall: 0.9667
+  Mean IoU: 0.9129
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175492
+  License Correct: 170133
+Epoch 23 - Validation Metrics:
+  Loss: 0.9438
+  Precision: 0.9561
+  Recall: 0.9540
+  Mean IoU: 0.8733
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35121
+  License Correct: 33578
+
+Epoch 24 - Train Metrics:
+  Loss: 9.2031
+  Precision: 0.9697
+  Recall: 0.9669
+  Mean IoU: 0.9133
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175473
+  License Correct: 170159
+Epoch 24 - Validation Metrics:
+  Loss: 0.9465
+  Precision: 0.9588
+  Recall: 0.9579
+  Mean IoU: 0.8731
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35162
+  License Correct: 33713
+
+Epoch 25 - Train Metrics:
+  Loss: 9.1836
+  Precision: 0.9706
+  Recall: 0.9678
+  Mean IoU: 0.9136
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175462
+  License Correct: 170312
+Epoch 25 - Validation Metrics:
+  Loss: 0.9798
+  Precision: 0.9557
+  Recall: 0.9546
+  Mean IoU: 0.8680
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35153
+  License Correct: 33597
+
+Epoch 26 - Train Metrics:
+  Loss: 9.1138
+  Precision: 0.9714
+  Recall: 0.9685
+  Mean IoU: 0.9142
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175469
+  License Correct: 170444
+Epoch 26 - Validation Metrics:
+  Loss: 0.9413
+  Precision: 0.9606
+  Recall: 0.9592
+  Mean IoU: 0.8738
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35143
+  License Correct: 33759
+
+Epoch 27 - Train Metrics:
+  Loss: 9.0973
+  Precision: 0.9711
+  Recall: 0.9685
+  Mean IoU: 0.9148
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175508
+  License Correct: 170442
+Epoch 27 - Validation Metrics:
+  Loss: 0.9307
+  Precision: 0.9569
+  Recall: 0.9560
+  Mean IoU: 0.8758
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35163
+  License Correct: 33647
+
+Epoch 28 - Train Metrics:
+  Loss: 9.0760
+  Precision: 0.9720
+  Recall: 0.9694
+  Mean IoU: 0.9151
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175513
+  License Correct: 170599
+Epoch 28 - Validation Metrics:
+  Loss: 0.9374
+  Precision: 0.9579
+  Recall: 0.9566
+  Mean IoU: 0.8747
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35149
+  License Correct: 33670
+
+Epoch 29 - Train Metrics:
+  Loss: 9.0236
+  Precision: 0.9717
+  Recall: 0.9692
+  Mean IoU: 0.9157
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175530
+  License Correct: 170569
+Epoch 29 - Validation Metrics:
+  Loss: 0.9418
+  Precision: 0.9606
+  Recall: 0.9594
+  Mean IoU: 0.8741
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35151
+  License Correct: 33766
+
+Epoch 30 - Train Metrics:
+  Loss: 8.6972
+  Precision: 0.9757
+  Recall: 0.9733
+  Mean IoU: 0.9185
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175558
+  License Correct: 171289
+Epoch 30 - Validation Metrics:
+  Loss: 0.9441
+  Precision: 0.9619
+  Recall: 0.9602
+  Mean IoU: 0.8727
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35133
+  License Correct: 33795
+
+Epoch 31 - Train Metrics:
+  Loss: 8.6272
+  Precision: 0.9754
+  Recall: 0.9730
+  Mean IoU: 0.9193
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175564
+  License Correct: 171238
+Epoch 31 - Validation Metrics:
+  Loss: 0.9246
+  Precision: 0.9626
+  Recall: 0.9614
+  Mean IoU: 0.8759
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35153
+  License Correct: 33837
+
+Epoch 32 - Train Metrics:
+  Loss: 8.6018
+  Precision: 0.9762
+  Recall: 0.9740
+  Mean IoU: 0.9197
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175589
+  License Correct: 171403
+Epoch 32 - Validation Metrics:
+  Loss: 0.9474
+  Precision: 0.9617
+  Recall: 0.9606
+  Mean IoU: 0.8727
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35158
+  License Correct: 33810
+
+Epoch 33 - Train Metrics:
+  Loss: 8.5483
+  Precision: 0.9773
+  Recall: 0.9752
+  Mean IoU: 0.9203
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175601
+  License Correct: 171617
+Epoch 33 - Validation Metrics:
+  Loss: 0.9513
+  Precision: 0.9626
+  Recall: 0.9611
+  Mean IoU: 0.8719
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35142
+  License Correct: 33827
+
+Epoch 34 - Train Metrics:
+  Loss: 8.5227
+  Precision: 0.9768
+  Recall: 0.9747
+  Mean IoU: 0.9205
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175600
+  License Correct: 171527
+Epoch 34 - Validation Metrics:
+  Loss: 0.9491
+  Precision: 0.9632
+  Recall: 0.9620
+  Mean IoU: 0.8723
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35154
+  License Correct: 33859
+
+Epoch 35 - Train Metrics:
+  Loss: 8.5227
+  Precision: 0.9768
+  Recall: 0.9747
+  Mean IoU: 0.9207
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175611
+  License Correct: 171529
+Epoch 35 - Validation Metrics:
+  Loss: 0.9318
+  Precision: 0.9621
+  Recall: 0.9610
+  Mean IoU: 0.8750
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35158
+  License Correct: 33825
+
+Epoch 36 - Train Metrics:
+  Loss: 8.4998
+  Precision: 0.9778
+  Recall: 0.9757
+  Mean IoU: 0.9209
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175606
+  License Correct: 171706
+Epoch 36 - Validation Metrics:
+  Loss: 0.9510
+  Precision: 0.9628
+  Recall: 0.9615
+  Mean IoU: 0.8719
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35150
+  License Correct: 33841
+
+Epoch 37 - Train Metrics:
+  Loss: 8.4778
+  Precision: 0.9769
+  Recall: 0.9749
+  Mean IoU: 0.9212
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175624
+  License Correct: 171568
+Epoch 37 - Validation Metrics:
+  Loss: 0.9417
+  Precision: 0.9624
+  Recall: 0.9613
+  Mean IoU: 0.8735
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35157
+  License Correct: 33834
+
+Epoch 38 - Train Metrics:
+  Loss: 8.4342
+  Precision: 0.9781
+  Recall: 0.9761
+  Mean IoU: 0.9215
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175623
+  License Correct: 171772
+Epoch 38 - Validation Metrics:
+  Loss: 0.9526
+  Precision: 0.9629
+  Recall: 0.9619
+  Mean IoU: 0.8718
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35161
+  License Correct: 33855
+
+Epoch 39 - Train Metrics:
+  Loss: 8.4367
+  Precision: 0.9772
+  Recall: 0.9755
+  Mean IoU: 0.9220
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175670
+  License Correct: 171673
+Epoch 39 - Validation Metrics:
+  Loss: 0.9410
+  Precision: 0.9629
+  Recall: 0.9619
+  Mean IoU: 0.8739
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35159
+  License Correct: 33854
+
+Epoch 40 - Train Metrics:
+  Loss: 8.3446
+  Precision: 0.9781
+  Recall: 0.9762
+  Mean IoU: 0.9228
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175650
+  License Correct: 171798
+Epoch 40 - Validation Metrics:
+  Loss: 0.9518
+  Precision: 0.9639
+  Recall: 0.9631
+  Mean IoU: 0.8721
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35167
+  License Correct: 33899
+
+Epoch 41 - Train Metrics:
+  Loss: 8.3130
+  Precision: 0.9782
+  Recall: 0.9765
+  Mean IoU: 0.9232
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175674
+  License Correct: 171844
+Epoch 41 - Validation Metrics:
+  Loss: 0.9550
+  Precision: 0.9642
+  Recall: 0.9632
+  Mean IoU: 0.8714
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35161
+  License Correct: 33901
+
+Epoch 42 - Train Metrics:
+  Loss: 8.2887
+  Precision: 0.9784
+  Recall: 0.9768
+  Mean IoU: 0.9235
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175695
+  License Correct: 171900
+Epoch 42 - Validation Metrics:
+  Loss: 0.9435
+  Precision: 0.9640
+  Recall: 0.9632
+  Mean IoU: 0.8734
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35166
+  License Correct: 33900
+
+Epoch 43 - Train Metrics:
+  Loss: 8.2777
+  Precision: 0.9795
+  Recall: 0.9777
+  Mean IoU: 0.9236
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175667
+  License Correct: 172060
+Epoch 43 - Validation Metrics:
+  Loss: 0.9447
+  Precision: 0.9633
+  Recall: 0.9624
+  Mean IoU: 0.8731
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35162
+  License Correct: 33872
+
+Epoch 44 - Train Metrics:
+  Loss: 8.2696
+  Precision: 0.9792
+  Recall: 0.9775
+  Mean IoU: 0.9236
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175677
+  License Correct: 172029
+Epoch 44 - Validation Metrics:
+  Loss: 0.9369
+  Precision: 0.9634
+  Recall: 0.9624
+  Mean IoU: 0.8743
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35162
+  License Correct: 33874
+
+Epoch 45 - Train Metrics:
+  Loss: 8.2669
+  Precision: 0.9790
+  Recall: 0.9773
+  Mean IoU: 0.9237
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175680
+  License Correct: 171987
+Epoch 45 - Validation Metrics:
+  Loss: 0.9592
+  Precision: 0.9647
+  Recall: 0.9637
+  Mean IoU: 0.8707
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35162
+  License Correct: 33920
+
+Epoch 46 - Train Metrics:
+  Loss: 8.2603
+  Precision: 0.9787
+  Recall: 0.9771
+  Mean IoU: 0.9239
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175692
+  License Correct: 171955
+Epoch 46 - Validation Metrics:
+  Loss: 0.9579
+  Precision: 0.9629
+  Recall: 0.9622
+  Mean IoU: 0.8713
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35167
+  License Correct: 33864
+
+Epoch 47 - Train Metrics:
+  Loss: 8.2353
+  Precision: 0.9795
+  Recall: 0.9780
+  Mean IoU: 0.9241
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175709
+  License Correct: 172106
+Epoch 47 - Validation Metrics:
+  Loss: 0.9466
+  Precision: 0.9645
+  Recall: 0.9635
+  Mean IoU: 0.8727
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35160
+  License Correct: 33912
+
+Epoch 48 - Train Metrics:
+  Loss: 8.2440
+  Precision: 0.9795
+  Recall: 0.9779
+  Mean IoU: 0.9240
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175688
+  License Correct: 172090
+Epoch 48 - Validation Metrics:
+  Loss: 0.9495
+  Precision: 0.9633
+  Recall: 0.9623
+  Mean IoU: 0.8725
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35162
+  License Correct: 33870
+
+Epoch 49 - Train Metrics:
+  Loss: 8.2392
+  Precision: 0.9788
+  Recall: 0.9772
+  Mean IoU: 0.9242
+  Total GT Licenses: 175986
+  Total Pred Licenses: 175686
+  License Correct: 171968
+Epoch 49 - Validation Metrics:
+  Loss: 0.9496
+  Precision: 0.9633
+  Recall: 0.9622
+  Mean IoU: 0.8721
+  Total GT Licenses: 35196
+  Total Pred Licenses: 35154
+  License Correct: 33865
+
