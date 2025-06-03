@@ -9,6 +9,7 @@ PyTorch implementation for License Transformer (MTech project at IISc Bangalore)
 Download the CCPD dataset from [here](https://github.com/detectRecog/CCPD).
 
 Make sure the project folder looks like this:
+```
 LITR/
 ├── CCPD2019/
 │   ├── ccpd_base/
@@ -38,6 +39,7 @@ LITR/
 ├── train.py
 ├── visualize.py
 └── ... (other files from project)
+```
 
 
 ## Training
